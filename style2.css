@@ -1,0 +1,14 @@
+body{
+	margin:0px;
+	padding:0px;
+	height:800px;
+	width:100%;
+	color:red;
+}
+
+header{
+	margin:20px;
+	padding: 50px;
+	color:red;
+	background-color: yellow;
+}
