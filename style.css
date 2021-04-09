@@ -1,16 +1,30 @@
-body{
-	margin:0;
-	padding: 0;
-	background color:yellow;
-	overflow: hidden;
-	text-align:center;
-}
-.header{
-	background-color: black;
-	padding:15px;
-	box-shadow: 0 0 3px;
-}
 
-.header li{
-	display:inline;
+ul{
+	margin:20;
+	padding:0;
+	list-style: none;
+	text-align: right;
+	grid-gap:25;
+
+}
+li{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+	background-color: purple;
+	transition: 0.5s;
+	padding: 10px 25px;
+	display:block;
+	border-radius: 5px;
+}
+a:hover{
+	background-color: orange;
+}
+a:hover(.not active){
+	color:red;
+	background-color: brown;
 }
